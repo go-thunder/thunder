@@ -1,8 +1,8 @@
 module github.com/gothunder/thunder
 
-go 1.21
+go 1.23
 
-toolchain go1.21.6
+toolchain go1.23.4
 
 require (
 	entgo.io/ent v0.12.5
@@ -21,7 +21,7 @@ require (
 	github.com/streadway/amqp v1.0.0
 	github.com/stretchr/testify v1.8.4
 	github.com/vektah/gqlparser/v2 v2.5.11
-	github.com/vektra/mockery/v2 v2.33.3
+	github.com/vektra/mockery/v2 v2.51.0
 	github.com/vmihailenco/msgpack/v5 v5.3.5
 	go.opentelemetry.io/otel v1.22.0
 	go.opentelemetry.io/otel/trace v1.22.0
@@ -33,7 +33,7 @@ require (
 	github.com/agext/levenshtein v1.2.3 // indirect
 	github.com/apparentlymart/go-textseg/v13 v13.0.0 // indirect
 	github.com/cenkalti/backoff/v3 v3.2.2 // indirect
-	github.com/chigopher/pathlib v0.15.0 // indirect
+	github.com/chigopher/pathlib v0.19.1 // indirect
 	github.com/felixge/httpsnoop v1.0.3 // indirect
 	github.com/go-logr/stdr v1.2.2 // indirect
 	github.com/go-openapi/inflect v0.19.0 // indirect
@@ -98,12 +98,12 @@ require (
 	go.uber.org/dig v1.17.0 // indirect
 	go.uber.org/multierr v1.11.0 // indirect
 	go.uber.org/zap v1.24.0 // indirect
-	golang.org/x/mod v0.13.0 // indirect
+	golang.org/x/mod v0.14.0 // indirect
 	golang.org/x/net v0.20.0 // indirect
 	golang.org/x/sys v0.16.0 // indirect
 	golang.org/x/term v0.16.0 // indirect
 	golang.org/x/text v0.14.0 // indirect
-	golang.org/x/tools v0.14.0 // indirect
+	golang.org/x/tools v0.17.0 // indirect
 	google.golang.org/grpc v1.60.1
 	gopkg.in/ini.v1 v1.67.0 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
